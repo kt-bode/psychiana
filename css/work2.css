@@ -1,0 +1,313 @@
+body{
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+#container{
+	position: relative;
+	width:1000px;
+	height: auto;
+	left: 50%;
+	margin: 50px 0px 0px -525px;
+	padding: 10px;
+	display: inline-block;
+}
+#content{
+	position: relative;
+	width: 630px;
+	left: 50%;
+	margin: 20px 0px 0px -350px;
+	padding: 0px 0px 0px 20px;
+	text-align: justify;
+	z-index: 1;
+}
+#content img{
+	position: relative;
+	padding-bottom: 20px;
+}
+#content h1{
+	position: relative;
+	font-family: Baskerville;
+	font-size: 24pt;
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+}
+#content h2{
+	position: relative;
+	font-family: FuturaLight;
+	font-size: 18pt;
+	margin: 0;
+	padding-bottom: 30px;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+}
+#content h3{
+	position: relative;
+	font-family: FuturaLight;
+	font-size: 18pt;
+	margin: 0;
+	padding-bottom: 5px;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+}
+#content h4{
+	position: relative;
+	font-family: Baskerville;
+	font-size: 12pt;
+	line-height: 18pt;
+	margin: 0;
+	padding-bottom: 30px;
+	font-weight: normal;
+	color: #000000;
+	text-align: justify;
+}
+#content p{
+	position: relative;
+	font-family: Baskerville;
+	font-size: 12pt;
+	line-height: 18pt;
+	margin: 0;
+	padding-bottom: 15px;
+	font-weight: normal;
+	color: #000000;
+	text-align: justify;
+}
+#content HR {
+    height:1px;
+    background:#000000;
+   }
+.gmail{
+	font-family: arial;
+}
+.ital{
+	position: relative;
+	font-family: BaskervilleItalic;
+	font-size: 12pt;
+	line-height: 18pt;
+	margin: 0;
+	padding-bottom: 15px;
+	font-weight: normal;
+	color: #000000;
+	text-align: justify;	
+}
+.bibliography{
+	width: 100%;
+	font-family: FuturaLightStd;
+	font-size: 24pt;
+	line-height: 14pt;
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	display: inline-block;
+	padding-bottom: 20px;
+}
+#biblio-left{
+	position: absolute;
+	float: left;
+	width: 310px;
+	height: auto;
+	padding: 5px;
+	left: 0;
+	margin: 0;
+	text-align: center;
+}
+#biblio-right{
+	position: relative;
+	float: right;
+	width: 310px;
+	height: auto;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+}
+.biblio-entry{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin: 0px 0px 20px 0px;
+	text-align: center;
+}
+.biblio-header{
+	position: relative;
+	font-family: CaslonSC;
+	font-size: 12pt;
+	line-height: 16pt;
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+}
+.biblio-title{
+	position: relative;
+	font-family: CaslonSB;
+	font-size: 12pt;
+	line-height: 16pt;
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+}
+.biblio-title2{
+	font-family: BaskervilleItalic;
+	font-size: 12pt;
+	line-height: 16pt;
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+}
+.biblio-last{
+	font-family: Caslon;
+	font-size: 10pt;
+	line-height: 16pt;
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+}
+.pascal{
+	position: relative;
+	font-family: Monaco;
+	font-size: 9pt;
+	line-height: 14pt;
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+	text-align: justify;
+}
+.berk{
+	position: relative;
+	font-family: BaskervilleItalic;
+	font-size: 12pt;
+	line-height: 18pt;
+	margin: 0;
+	padding-bottom: 15px;
+	font-weight: normal;
+	color: #000000;
+	text-align: justify;
+}
+#nav-left{
+	position: fixed;
+	width: 150px;
+	left: 50%;
+	margin: 10px 0px 0px -508px;
+	text-align: right;
+}
+#nav-left ul {
+	position: relative;
+	left: 0px;
+}
+#nav-left ul li{
+	list-style: none;
+	font-family: BaskervilleItalic;
+	font-size: 12pt;
+	font-weight: normal;
+	color: #000000;
+	padding-bottom: 15px;
+}
+#nav-right{
+	position: fixed;
+	width: 175px;
+	left: 50%;
+	top: 0px;
+	margin: 20px 0px 0px 305px;
+	text-align: right;
+}
+#nav-right ul {
+	position: relative;
+	top: 20px;
+	left: -25px;
+}
+#nav-right ul li{
+	list-style: none;
+	font-family: BaskervilleItalic;
+	font-size: 14pt;
+	font-weight: normal;
+	color: #000000;
+	padding-bottom: 10px;
+}
+
+
+a:link{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	text-decoration: none;
+	color: #000;
+}
+a:visited{
+	text-decoration: none;
+	color: #000;
+}
+a:active{
+	text-decoration: none;
+	color: #000;
+}
+
+/* BASKERVILLE */
+@font-face {
+	font-family: Baskerville;
+	src: url("../fonts/BaskervilleMTStd-Regular.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: BaskervilleItalic;
+	src: url("../fonts/BaskervilleMTStd-Italic.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: BaskervilleBold;
+	src: url("../fonts/BaskervilleMTStd-Bold.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: BaskervilleBoldItalic;
+	src: url("../fonts/BaskervilleMTStd-BoldIt.otf");
+	font-weight:400;
+}
+
+/* FUTURA */
+
+@font-face {
+	font-family: FuturaLightStd;
+	src: url("../fonts/FuturaStd-Light.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: FuturaLight;
+	src: url("../fonts/FuturaStd-LightOblique.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: FuturaSemi;
+	src: url("../fonts/FuturaStd-MediumOblique.otf");
+	font-weight:400;
+}
+
+/* CALSLON */
+@font-face {
+	font-family: Caslon;
+	src: url("../fonts/ACaslonPro-Regular.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: CaslonSB;
+	src: url("../fonts/ACaslonPro-Semibold.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: CaslonSC;
+	src: url("../fonts/ACaslon-RegularSC.otf");
+	font-weight:400;
+}
+
+/* MONACO */
+@font-face {
+	font-family: Monaco;
+	src: url("../fonts/Monaco.ttf");
+	font-weight:400;
+}

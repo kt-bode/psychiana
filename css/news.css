@@ -1,0 +1,263 @@
+body{
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+#container{
+	position: relative;
+	width:1000px;
+	height: auto;
+	left: 50%;
+	margin: 50px 0px 0px -525px;
+	padding: 10px;
+	display: inline-block;
+}
+#content{
+	position: relative;
+	width: 550px;
+	left: 50%;
+	margin: 0px 0px 0px -275px;
+	padding: 0px 0px 0px 20px;
+	text-align: justify;
+	z-index: 1;
+	text-align: left;
+
+}
+#content p{
+	position: relative;
+	font-family: Caslon;
+	font-size: 13pt;
+	line-height: 16pt;
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+	padding-bottom: 10px;
+}
+.entry{
+	margin: 0;
+	padding: 0px 0px 30px 0px;
+}
+.date{
+	display: inline;
+	font-family: Baskerville;
+	font-size: 18pt;
+	line-height: 16pt;
+	margin: 0;
+	text-decoration: underline;
+}
+.small-caps{
+	display: inline;
+	font-family: CaslonSC;
+	font-size: 13pt;
+	line-height: 16pt;
+	margin: 0;
+}
+.eic{
+	display: inline;
+	font-family: BaskervilleItalic;
+	font-size: 12pt;
+	line-height: 16pt;
+	margin: 0;
+}
+.role{
+	display: inline;
+	font-family: BaskervilleItalic;
+	font-size: 11pt;
+	line-height: 16pt;
+	margin: 0;
+}
+.italic{
+	display: inline;
+	font-family: BaskervilleItalic;
+	font-size: 14pt;
+	line-height: 16pt;
+	margin: 0;	
+}
+.sb{
+	font-family: BaskervilleBold;
+	font-size: 12pt;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: 1px;
+}
+.ital{
+	font-family: BaskervilleBoldItalic;
+	font-size: 12pt;
+	font-weight: normal;
+	color: #000000;	
+}
+.justify-center{
+	position: relative;
+	width: 545px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	font-family: Caslon;
+	font-size: 13pt;
+	line-height: 16pt;
+	font-weight: normal;
+	color: #000000;
+}
+#top{
+	position: relative;
+	width: 545px;
+	margin: 30px 0px 0px 0px;
+}
+#center{
+	position: relative;
+	width: 300px;
+	display: inline-block;
+}
+#left{
+	position: relative;
+	float: left;
+	width: 150px;
+	margin: 30px 0px 15px 0px;
+}
+#left p{
+	position: relative;
+	font-family: CaslonSC;
+	font-size: 11pt;
+	line-height: 16pt;
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+	padding: 15px 0px 15px 0px;
+}
+#right{
+	position: relative;
+	float: right;
+	width: 150px;
+	margin: 30px 0px 15px 0px;
+}
+#right p{
+	position: relative;
+	font-family: CaslonSC;
+	font-size: 11pt;
+	line-height: 16pt;
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+	padding: 15px 0px 15px 0px;
+}
+#bottom{
+	position: relative;
+	width: 545px;
+	margin: 15px 0px 15px 0px;
+}
+#bottom p{
+	position: relative;
+	font-family: CaslonSC;
+	font-size: 11pt;
+	line-height: 16pt;
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+	padding: 15px 0px 15px 0px;
+}
+#about{
+	position: relative;
+	width: 545px;
+	margin: 30px 0px 0px 0px;
+}
+#about p{
+	position: relative;
+	font-family: Caslon;
+	font-size: 13pt;
+	line-height: 18pt;
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+	text-align: justify;
+}
+#nav-right{
+	position: fixed;
+	width: 175px;
+	left: 50%;
+	top: 0px;
+	margin: 20px 0px 0px 305px;
+	text-align: right;
+}
+#nav-right ul {
+	position: relative;
+	top: 20px;
+	left: -25px;
+}
+#nav-right ul li{
+	list-style: none;
+	font-family: BaskervilleItalic;
+	font-size: 14pt;
+	font-weight: normal;
+	color: #000000;
+	padding-bottom: 10px;
+}
+
+
+a:link{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	text-decoration: none;
+	color: #000;
+}
+a:visited{
+	text-decoration: none;
+	color: #000;
+}
+a:active{
+	text-decoration: none;
+	color: #000;
+}
+
+/* BASKERVILLE */
+@font-face {
+	font-family: Baskerville;
+	src: url("../fonts/BaskervilleMTStd-Regular.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: BaskervilleItalic;
+	src: url("../fonts/BaskervilleMTStd-Italic.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: BaskervilleBold;
+	src: url("../fonts/BaskervilleMTStd-Bold.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: BaskervilleBoldItalic;
+	src: url("../fonts/BaskervilleMTStd-BoldIt.otf");
+	font-weight:400;
+}
+
+/* FUTURA */
+@font-face {
+	font-family: FuturaLight;
+	src: url("../fonts/FuturaStd-LightOblique.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: FuturaSemi;
+	src: url("../fonts/FuturaStd-MediumOblique.otf");
+	font-weight:400;
+}
+
+/* CALSLON */
+@font-face {
+	font-family: Caslon;
+	src: url("../fonts/ACaslonPro-Regular.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: CaslonSB;
+	src: url("../fonts/ACaslonPro-Semibold.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: CaslonSC;
+	src: url("../fonts/ACaslon-RegularSC.otf");
+	font-weight:400;
+}

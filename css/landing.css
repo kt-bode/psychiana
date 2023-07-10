@@ -1,0 +1,67 @@
+body{
+	background: #000;
+	margin: 0;
+	padding: 0;
+}
+#container{
+	position: absolute;
+	width:500px;
+	height: 500px;
+	top: 50%;
+	left: 50%;
+	margin: -250px 0px 0px -260px;
+	padding: 10px;
+}
+#nav{
+	position: relative;
+	top: 80px;
+	width: 500px;
+	text-align: center;
+	white-space: nowrap;
+}
+#nav li {
+	display: inline;
+	list-style-type: none;
+	padding: 0px 0px 0px 0px;
+	font-family: FuturaLight;
+	font-size: 24pt;
+	color: #fff;
+}
+#nav li a{
+	color: #fff;
+	text-decoration: none;
+}
+#nav li a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+/* FUTURA */
+
+@font-face {
+	font-family: FuturaLightStd;
+	src: url("../fonts/FuturaStd-Light.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: FuturaLight;
+	src: url("../fonts/FuturaStd-LightOblique.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: FuturaSemi;
+	src: url("../fonts/FuturaStd-MediumOblique.otf");
+	font-weight:400;
+}
+
+/* CALSLON */
+@font-face {
+	font-family: Caslon;
+	src: url("../fonts/ACaslonPro-Regular.otf");
+	font-weight:400;
+}
+@font-face {
+	font-family: CaslonSB;
+	src: url("../fonts/ACaslonPro-Semibold.otf");
+	font-weight:400;
+}
