@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- TemplateBeginEditable name="doctitle" -->
+  <title>P S Y C H I A N A</title>
+
+  
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+  
+  <style type="text/css">
+<!--
+body {
+	font:"Adobe Caslon Pro Bold", "Adobe Caslon Pro";
+	background: #000;
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+}
+#container {
+	margin-left: auto;   
+	margin-right: auto;  
+	background:#000;
+	width: 800px;
+	position: relative;
+	top: 100px;
+	
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 0px;
+	text-decoration:none;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+	
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #FFF;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this fixed width container surrounds all other divs ~~ */
+.container {
+	width: 880px;
+	background: #000;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+	overflow: hidden; /* this declaration makes the .container understand where the floated columns within ends and contain them */
+}
+
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a div set to float right). Many times, padding can be used instead. For divs where this rule must be broken, you should add a "display:inline" declaration to the div's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar divs could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the right instead of the left, simply float these columns the opposite direction (all right instead of all left) and they'll render in reverse order. There's no need to move the divs around in the HTML source.
+
+*/
+.sidebar1 {
+	position:fixed;
+	top:10px;
+	left:45px;
+	text-align:center;
+	float: left;
+	width: 200px;
+	background: #000;
+	padding-bottom: 10px;
+}
+.content {
+	top:120px;
+	font:"Adobe Caslon Pro";
+	font-size:16px;
+	color:#FFF;
+	padding: 10px 10px;
+	width: 600px;
+	float:right;
+
+}
+.email {
+	margin-top:20px;
+	font-size:18px;
+	float:right;
+	text-align:right
+	
+}
+.email a:link, a:active, a:visited {
+		top-margin:20px;
+		font:"Adobe Caslon Pro Bold", "Adobe Caslon Pro";
+		color:#FFF;
+		text-decoration:none;
+		
+}
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 20px 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 10px 10px 10px 10px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background: #000;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background: #000;
+	color: #FFF;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.links a:link, a:visited, a:active {
+	color:#FFF;
+	text-decoration:none;
+}
+
+-->
+  </style>
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32926654-1']);
+  _gaq.push(['_setDomainName', 'psychianamagazine.org']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<body>
+<div class="sidebar1">
+<ul class="nav">
+  <img src="spacer.png" height="50"  />
+  <a href="index.html"><img src="logo.gif" height="100"  /></a>
+  <img src="spacer.png" height="50"  />
+  <li><a href="about.html"><img src="about-l2-02.png"></a></li>
+  <li><a href="issue1.html"><img src="issue1-l2-02.png"></a></li>
+  <li><a href="issue2.html"><img src="issue2-l2-02.png"></a></li>
+  <li><a href="purchase.html"><img src="purchase-l2-02.png"></a></li>
+      <li><a href="contact.html"><img src="contact-l2-02.png"></a></li>
+
+
+</ul>
+</div>
+
+  <div id ="container">  		
+        <div class="links">
+        <div id="about">
+        <b> REQUEST FOR SUBMISSIONS: PSYCHIANA ISSUE #2 - INVISIBILITY </b><br><br><br><br>
+        We are pleased to announce the open call for submissions to Psychiana Issue 2: Invisibility
+<br><br>
+Psychiana seeks to explore the question of Invisibility for its sophomore issue. Invisibility may or may not be detectable to the naked eye, but it can be felt, tasted, listened to, inhaled, and experienced. Invisibility is both playful and somber. Invisibility may exist in the negative--an absence, the experience of that which is unseen, unfelt, undone--or the positive--as the existence of that which is very much there; the ethereal, the celestial, and the divine.
+<br><br>
+
+Invisibility has its own set of values, and we imbue our value on the Invisible in specific and often indiscernable ways. Invisibility can be a longing, a want, or a burden; an ever present distraction or an imperceptible shift. Invisibility can be malicious and malevolent, but Invisibility can also be a lonely child's only friend, a welcomed distraction, or a comforting warmth.
+<br><br>
+
+As always, no project is too big or too small! We seek essays, plays, poems, stories, infographics, recipes, advice, indices, critical theory, curricula, plans, and visual art of all kinds. In addition to drawings, paintings, photography, and visual submissions of all kinds, we also welcome the submission of a proposal for the art insert: any kind of gift that can fit into a bound format: think postcards, CDs, confetti, jewelry, etc. The sky's the limit!
+<br><br>
+
+<b>The FINAL DEADLINE for complete submissions is Monday, November 26, so make haste!</b>
+<br><br>
+
+- Written Submissions may be as long or as short as you want. Please be aware that work may be edited down, however we will be in touch throughout the editorial process if deemed necessary. Please send all written submissions to <a href="mailto:letters@psychianamagazine.org?Subject=Issue%20Two%20Submission">letters@psychianamagazine.org.</a>
+<br><br>
+
+- Visual Submissions may comprise any medium that can be reproduced in a printed form. Please send all visual submissions to <a href="mailto:arts@psychianamagazine.org?Subject=Issue%20Two%20Submission">arts@psychianamagazine.org.</a>
+<br><br>
+
+- Art Insert Submissions should include a short description of the proposed work, a drawing or model, and a sample budget for materials and production. Please note: while we are able to fund production up to $100, this project must be feasible and replicable in an edition of over 150. Please send all art insert submissions to <a href="mailto:arts@psychianamagazine.org?Subject=Issue%20Two%20Submission">arts@psychianamagazine.org.</a>
+
+                </div>
+          
+        
+</div>
+</div>
+
+</body>
+</html>
